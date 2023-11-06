@@ -1,0 +1,13 @@
+name: test
+value: 1
+is_use: false
+is_use2: False
+case:
+  - a
+  - b
+  - c
+model:
+  name: resnet18
+  params:
+    change_conv1: true
+    num_classes: 10
